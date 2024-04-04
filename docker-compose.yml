@@ -1,0 +1,55 @@
+services:
+  postgres-customer:
+    container_name: customer-db
+    image: postgres
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      PGDATA: /data/postgres-customer
+    volumes:
+      - customer-db:/data/postgres-customer
+    ports:
+      - "5440:5432"
+    networks:
+      - postgres
+    restart: unless-stopped
+
+  postgres-fraud:
+    container_name: fraud-db
+    image: postgres
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      PGDATA: /data/postgres-fraud
+    volumes:
+      - fraud-db:/data/postgres-fraud
+    ports:
+      - "5441:5432"
+    networks:
+      - postgres
+    restart: unless-stopped
+
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@pgadmin.com
+      PGADMIN_DEFAULT_PASSWORD: password
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+    volumes:
+      - pgadmin:/var/lib/pgadmin
+    ports:
+      - "5050:80"
+    networks:
+      - postgres
+    restart: unless-stopped
+
+networks:
+  postgres:
+    driver: bridge
+
+volumes:
+  customer-db:
+  fraud-db:
+  pgadmin:
+
