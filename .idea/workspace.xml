@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="370e83ff-2ed1-48ea-8eab-9d083885cc6c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/example/clients/fraud/FraudClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/example/clients/notification/NotificationClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/example/clients/notification/NotificationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/CustomerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/CustomerRegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02b2d6aa937e526b7c0bd9baee0ababd774c1871" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0cb544a0eafa71d8c3d961750bae1cb7b9bf3105" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f441f321e27cc4384818f31c2e6e9330c79b3a3" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1a7a0653e896ceb5269a9613eb5327de7cea4bb5" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2fd6dbe0bcca1a93c5790a29d3c7f4b8c48718b5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/300a3d1fd2643cd42a8093c84ff79aa8656f2c84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/3250890741ba648d280f594e406f7f6076251fbe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/557beae86fab0c30fd53000a8fa44a178c60ad56" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a84cf58dd904f7c5dd9d5126a42b1a1748bb82a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/848328532d354c3d627f9a80fdd7eb63ad260803" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90d616a66c5c0f4465fc06e52362483def07246b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96b1995de858c1e5b36cb3d9a2dc9261d3634428" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97c2f1091ba5db43bfc5c18515015fb42b885c9a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b1a985955230d9bc054bd86b513dd613a2ad0c0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fb7399b038d6f783eaf94e47578598fc0d990cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae0fe1fce8f97995f0225aa73104a92a194ef0d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b39ae52d769ea03b699b5602439afd875433c8a7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6ea1b4efbb8553195e0d922f6e66a815acd21a1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3d00f4fcd882bd69b0ee30d270b58a37a69d951" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c448867ce59bdb46e9d34671343a5b2048793b8d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d024669e89b7b66ac8ba07340a73edc6aa228259" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6e0babf3aa8dbd1d4a8fe401afd2369416dadd0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7c7679eeb2c2acb4fdb112b4b207796cb9939ae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/2/02b2d6aa937e526b7c0bd9baee0ababd774c1871" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/c/0cb544a0eafa71d8c3d961750bae1cb7b9bf3105" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/f/0f441f321e27cc4384818f31c2e6e9330c79b3a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/a/1a7a0653e896ceb5269a9613eb5327de7cea4bb5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/f/2fd6dbe0bcca1a93c5790a29d3c7f4b8c48718b5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/0/300a3d1fd2643cd42a8093c84ff79aa8656f2c84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/2/3250890741ba648d280f594e406f7f6076251fbe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/5/557beae86fab0c30fd53000a8fa44a178c60ad56" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/a/7a84cf58dd904f7c5dd9d5126a42b1a1748bb82a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/4/848328532d354c3d627f9a80fdd7eb63ad260803" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/0/90d616a66c5c0f4465fc06e52362483def07246b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/6/96b1995de858c1e5b36cb3d9a2dc9261d3634428" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/7/97c2f1091ba5db43bfc5c18515015fb42b885c9a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/b/9b1a985955230d9bc054bd86b513dd613a2ad0c0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/f/9fb7399b038d6f783eaf94e47578598fc0d990cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/e/ae0fe1fce8f97995f0225aa73104a92a194ef0d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/3/b39ae52d769ea03b699b5602439afd875433c8a7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/6/b6ea1b4efbb8553195e0d922f6e66a815acd21a1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/3/c3d00f4fcd882bd69b0ee30d270b58a37a69d951" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/4/c448867ce59bdb46e9d34671343a5b2048793b8d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/0/d024669e89b7b66ac8ba07340a73edc6aa228259" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/6/e6e0babf3aa8dbd1d4a8fe401afd2369416dadd0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/7/e7c7679eeb2c2acb4fdb112b4b207796cb9939ae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/example/customer/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/example/customer/CustomerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/example/customer/CustomerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/example/customer/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/example/customer/CustomerRegistrationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/example/customer/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/example/customer/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/example/customer/FraudCheckResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/example/customer/Customer$CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/example/customer/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/example/customer/CustomerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/example/customer/CustomerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/example/customer/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/example/customer/CustomerRegistrationRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/example/customer/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/example/customer/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/example/customer/FraudCheckResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/example/eurekaserver/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/example/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/example/fraud/FraudCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/org/example/fraud/FraudCheckController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/example/fraud/FraudCheckResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/example/clients/fraud/FraudCheckResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudCheckController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudCheckHistory$FraudCheckHistoryBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudCheckHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudCheckRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudCheckResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudCheckService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/customer/src/main/java/com/example/customer/CustomerService.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2dx4MAKZVB1gDCf7xsTrLYuwhrG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CustomerApplication.executor": "Run",
+    "Application.EurekaServerApplication.executor": "Run",
+    "Application.EurekaServiceApplication.executor": "Run",
+    "Application.FraudApplication.executor": "Run",
+    "Application.NotificationApplication.executor": "Run",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "Maven.customer [clean].executor": "Run",
+    "Maven.customer [install].executor": "Run",
+    "Maven.microservices [clean].executor": "Run",
+    "Maven.microservices [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Michał/Desktop/microservices/customer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Michał/Desktop/microservices/clients/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "spring.configuration.checksum": "0d25b2d9fb55b15a5b189e15f943eef2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.customer" />
+      <recent name="com.example.customer" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.clients.fraud" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CustomerApplication">
+    <configuration name="CustomerApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.customer.CustomerApplication" />
+      <module name="customer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServiceApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.eurekaserver.EurekaServerApplication" />
+      <module name="eureka-server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FraudApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.fraud.FraudApplication" />
+      <module name="fraud" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.notification.NotificationApplication" />
+      <module name="notification" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.CustomerApplication" />
+      <item itemvalue="Application.FraudApplication" />
+      <item itemvalue="Application.EurekaServiceApplication" />
+      <item itemvalue="Application.NotificationApplication" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="370e83ff-2ed1-48ea-8eab-9d083885cc6c" name="Changes" comment="" />
+      <created>1710936350393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710936350393</updated>
+      <workItem from="1710936350398" duration="1890000" />
+      <workItem from="1710938313352" duration="8578000" />
+      <workItem from="1710958145207" duration="1740000" />
+      <workItem from="1710961417458" duration="6089000" />
+      <workItem from="1711375219394" duration="4730000" />
+      <workItem from="1711544837878" duration="6956000" />
+      <workItem from="1711568043618" duration="639000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clients/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
