@@ -1,7 +1,7 @@
 package com.example.clients.notification;
 
 public record NotificationRequest(
-        Integer toCustomerId,
+        Long toCustomerId,
         String toCustomerName,
         String message
 ) {
