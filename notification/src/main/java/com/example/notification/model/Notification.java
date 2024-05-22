@@ -1,4 +1,4 @@
-package com.example.notification;
+package com.example.notification.model;
 
 
 import jakarta.persistence.*;
@@ -23,8 +23,8 @@ public class Notification {
             strategy = GenerationType.SEQUENCE,
             generator = "notification_id_sequence"
     )
-    private Integer notificationId;
-    private Integer toCustomerId;
+    private long notificationId;
+    private long toCustomerId;
     private String toCustomerEmail;
     private String sender;
     private String message;

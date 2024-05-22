@@ -1,7 +1,7 @@
 package org.example.fraud;
 
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
+import org.example.fraud.model.FraudCheckHistory;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

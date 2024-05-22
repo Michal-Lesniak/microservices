@@ -1,4 +1,4 @@
-package org.example.fraud;
+package org.example.fraud.model;
 
 import jakarta.persistence.*;
 import lombok.*;

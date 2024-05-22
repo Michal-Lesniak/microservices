@@ -5,6 +5,8 @@ import com.example.clients.fraud.FraudClient;
 import com.example.clients.notification.NotificationClient;
 import com.example.clients.notification.NotificationRequest;
 import lombok.RequiredArgsConstructor;
+import org.example.customer.model.Customer;
+import org.example.customer.model.CustomerRegistrationRequest;
 import org.springframework.stereotype.Service;
 
 @RequiredArgsConstructor
