@@ -10,6 +10,7 @@
         <module name="notification" />
         <module name="clients" />
         <module name="eureka-server" />
+        <module name="amqp" />
         <module name="fraud" />
         <module name="customer" />
       </profile>

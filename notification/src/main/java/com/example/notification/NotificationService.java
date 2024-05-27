@@ -17,7 +17,7 @@ public class NotificationService {
                 Notification.builder()
                         .toCustomerId(notificationRequest.toCustomerId())
                         .toCustomerEmail(notificationRequest.toCustomerName())
-                        .sender("Amigoscode")
+                        .sender("Admin")
                         .message(notificationRequest.message())
                         .sentAt(LocalDateTime.now())
                         .build()
